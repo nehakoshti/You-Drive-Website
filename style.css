@@ -1,0 +1,78 @@
+body{
+    background-color: #E9F6F4;
+}
+
+.b_img{
+    height: 75vh;
+    opacity: 0.8;
+}
+
+
+.nav-link{
+    margin: 4%;
+}
+
+.d-inline,.testimonial{
+    text-align: center;
+}
+
+.profile{
+    height: 117px; width: 117px;
+}
+
+.continue_reading{
+    text-decoration:none;
+    font-weight: bold;
+    font-size: smaller;
+    color: black ;
+    position: absolute;
+    bottom: 1;
+
+}
+
+.car_collection{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.car_sell,.browse_all_car{
+    text-decoration: none;
+    color: black;
+}
+.car_sell:hover,.continue_reading:hover,.browse_all_car:hover{
+    color: #8ec0b8;
+}
+
+.car_card:hover{
+    background-color:rgb(238, 238, 238);
+
+}
+
+li{
+    text-align: center;
+}
+
+.heading, .our_mission{
+    color: #66B2A6;
+    /* color: #8ec0b8; */
+}
+
+
+footer{
+    margin-top: 8%;
+    padding: 10%;
+    overflow-x: hidden ;
+}
+ 
+input{
+    border: none;   
+    outline: none;
+    border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+
+@media(max-width:1024px){
+    .carousel-item .b_img{
+        height:auto
+    }
+}
